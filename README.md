@@ -7,7 +7,7 @@
 
 ## 1 - Introdução
 
-Este documento abrange os testes a serem realizados no sistema "Portal do Aluno", versão 3.24.1111.1, incluindo testes de funcionalidade, segurança, performance e integração entre os módulos. O objetivo é assegurar que o sistema atenda aos requisitos funcionais e não funcionais definidos para o projeto, proporcionando uma experiência estável e eficiente para alunos, professores e administradores. Serão descritos os recursos de hardware e software necessários, as estratégias de teste a serem aplicadas e um cronograma detalhado para o acompanhamento do progresso dos testes ao longo do projeto.
+Este documento abrange os testes a serem realizados no sistema "Portal do Aluno", versão 3.24.1111.1, incluindo testes de funcionalidade, segurança, performance e integração entre os módulos. O objetivo é assegurar que o sistema atenda aos requisitos funcionais e não funcionais definidos para o projeto, proporcionando uma experiência estável e eficiente para alunos. Serão descritos os recursos de hardware e software necessários, as estratégias de teste a serem aplicadas e um cronograma detalhado para o acompanhamento do progresso dos testes ao longo do projeto.
 
 ## 2 - Requisitos a Testar
 
