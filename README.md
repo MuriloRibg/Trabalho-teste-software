@@ -41,7 +41,7 @@ Os testes planejados para o sistema "Portal do Aluno" incluem diferentes tipos p
 - **Técnica:** Manual e automática
 - **Estágio do teste:** Unidade
 - **Abordagem do teste:** Caixa branca e Caixa preta
-- **Responsável:** Programador(es) ou equipe de testes
+- **Responsável:** Equipe
 
 ### 3.2 - Persistência de Dados
 
@@ -50,7 +50,7 @@ Os testes planejados para o sistema "Portal do Aluno" incluem diferentes tipos p
 - **Técnica:** Manual e automática
 - **Estágio do teste:** Sistema
 - **Abordagem do teste:** Caixa preta
-- **Responsável:** Programador(es) ou equipe de testes
+- **Responsável:** Murilo
 
 ### 3.3 - Integração dos Componentes
 
@@ -59,7 +59,7 @@ Os testes planejados para o sistema "Portal do Aluno" incluem diferentes tipos p
 - **Técnica:** Manual e automática
 - **Estágio do teste:** Integração
 - **Abordagem do teste:** Caixa branca e Caixa preta
-- **Responsável:** Programador(es) ou equipe de testes
+- **Responsável:** Gisella
 
 ### 3.4 - Tempo de Resposta
 
@@ -68,7 +68,7 @@ Os testes planejados para o sistema "Portal do Aluno" incluem diferentes tipos p
 - **Técnica:** Manual e/ou automática
 - **Estágio do teste:** Sistema
 - **Abordagem do teste:** Caixa preta
-- **Responsável:** Equipe de testes
+- **Responsável:** Ricardo
 
 ### 3.5 - Animação
 
@@ -77,7 +77,7 @@ Os testes planejados para o sistema "Portal do Aluno" incluem diferentes tipos p
 - **Técnica:** Manual e/ou automática
 - **Estágio do teste:** Sistema
 - **Abordagem do teste:** Caixa preta
-- **Responsável:** Equipe de testes
+- **Responsável:** Equipe
 
 ### 3.6 - Efeitos Sonoros
 
