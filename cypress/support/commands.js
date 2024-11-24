@@ -1,25 +1,14 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+/* 
+    Exemplo de como usar o método abaixo:
+    - cy.login(Cypress.env('matricula'), Cypress.env('senha'))
+*/
+Cypress.Commands.add('login', (matricula, senha) => {
+    cy.visit("https://aluno.uvv.br/login")
+    cy.get('input[id=Matricula]').type(matricula)
+    cy.get('input[id=Password]').type(`${senha}{enter}`, { log: false })
+    cy.url().should('include', '/Aluno/MinhasTurmas')
+    cy.get('p[class=perfil-aluno-matricula]').should('contain', matricula)
+    cy.getCookie('ai_session').should('exist')
+}
+)
